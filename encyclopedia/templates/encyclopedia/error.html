@@ -1,0 +1,14 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1>Error</h1>
+
+    <p>{{ message }} </p>
+    
+    <h2> Okay, <a href="{% url 'new_page' %}"> go back</a></h2>
+
+{% endblock %}
